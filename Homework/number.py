@@ -5,8 +5,8 @@ def bubbleSort(nlist):
                 temp = nlist[i]
                 nlist[i] = nlist[i+1]
                 nlist[i+1] = temp
+                print(nlist)
 
-nlist = [14,46,43,27,57,41,45,21,70]
+nlist = print(int(input))
 bubbleSort(nlist)
-print(bubbleSort)
 print(nlist)
