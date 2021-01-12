@@ -7,6 +7,6 @@ def bubbleSort(nlist):
                 nlist[i+1] = temp
                 print(nlist)
 
-nlist = print(int(input))
+nlist = input("")
 bubbleSort(nlist)
 print(nlist)
