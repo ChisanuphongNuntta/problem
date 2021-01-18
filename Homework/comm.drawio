@@ -1,0 +1,129 @@
+<mxfile host="65bd71144e" modified="2021-01-18T04:52:18.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="keqFxMA3Btpo2kDkn1_i" type="embed">
+    <diagram id="6SYMVVJhJn5elYOEA6Cr" name="Page-1">
+        <mxGraphModel dx="1070" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="364" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;commission&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Enter&amp;nbsp;sale&amp;nbsp;:&amp;nbsp;&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;))&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="241" y="150" width="346" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="212" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;commission&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="290" width="256" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="190" y="1139"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;commission&amp;nbsp;=&amp;nbsp;.02&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="440" width="244" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="392" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;commission&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="420" width="256" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="574" y="610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="932" y="610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&#10;&#10;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;commission&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;nbsp;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="560" width="256" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="414" y="760"/>
+                            <mxPoint x="414" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;commission&amp;nbsp;=&amp;nbsp;.04&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="590" width="244" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;commission&amp;nbsp;=&amp;nbsp;.07&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="452" y="770" width="244" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="440" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="300" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="590" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="300" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="440" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="580" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="932" y="1139"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;commission&amp;nbsp;=&amp;nbsp;.1&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="770" width="244" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="364" y="1210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="28" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="1109" width="60" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
