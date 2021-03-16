@@ -1,7 +1,7 @@
-num = int(input('EnterNumber : '))
-def highestDigit(num):
-    x = str(num)
-    return x
+def highestDigit(highestnum):
+    l = str(highestnum)
+    return (max(l))
 
-
-print(max(highestDigit(num)))
+x = highestDigit(377401)
+print(x)
+#print(max(x))
