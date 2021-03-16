@@ -63,8 +63,7 @@ class Node:
             self.right.PrintTree()
 
 
-root = Node(12)
-root.insert(27)
+root = Node(27)
 root.insert(14)
 root.insert(35)
 root.insert(10)
@@ -72,6 +71,6 @@ root.insert(19)
 root.insert(31)
 root.insert(42)
 print(root.inorderTraversal(root))
-
-root.PrintTree()
+print(root.PerorderTraversal(root))
+print(root.PostorderTraversal(root))
 
