@@ -1,0 +1,42 @@
+import matplotlib.pyplot as plt
+import networkx as nx
+
+G = nx.Graph()
+
+
+G.add_edge('Uthai thani',"Nakorn Sawan",weight=43)
+G.add_edge("Uthai thani",'Chai Nat',weight=26)
+G.add_edge('Chai Nat',"Nakorn Sawan",weight=62)
+G.add_edge('Nakorn Sawan',"Lopburi",weight=151)
+G.add_edge('Lopburi',"Singburi",weight=32)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Chai Nat",weight=57)
+G.add_edge('Chai Nart',"Suphan Buri",weight=101)
+G.add_edge('Suphan Buri',"Ang Thong",weight=44)
+G.add_edge('Ang Thong',"Singburi",weight=40)
+G.add_edge('Ang Thong',"Lopburi",weight=42)
+G.add_edge('Kanchana',"Suphan Buri",weight=98)
+G.add_edge('Kanchana',"Raj Buri",weight=100)
+G.add_edge('Suphan Buri',"Ayutthaya",weight=100)
+G.add_edge('Suphan Buri',"Nakorn Pathom",weight=100)
+G.add_edge('Ayutthaya',"Nakorn Pathom",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+G.add_edge('Singburi',"Nakorn Sawan",weight=100)
+
+edge_labels = nx.get_edge_attributes(G,'weight')
+print(edge_labels)
+
+pos = nx.spring_layout(G)
+nx.draw(G,pos ,with_labels=True,font_color="yellow",node_size= 2000)
+nx.draw_networkx_edge_labels(G,pos,edge_labels=edge_labels)
+plt.show()
