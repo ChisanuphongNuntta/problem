@@ -4,7 +4,7 @@ import networkx as nx
 G = nx.Graph()
 
 
-G.add_edge('Uthai thani',"Nakorn Sawan",weight=43)
+G.add_edge('เลย',"Nakorn Sawan",weight=43)
 G.add_edge("Uthai thani",'Chai Nat',weight=26)
 G.add_edge('Chai Nat',"Nakorn Sawan",weight=62)
 G.add_edge('Nakorn Sawan',"Lopburi",weight=151)
