@@ -1,8 +1,8 @@
 
 import matplotlib.pyplot as plt
 import networkx as nx
-Province_start = input('Enter Start: ')
-Province_end = input('Enter End: ')
+#Province_start = input('Enter Start: ')
+#Province_end = input('Enter End: ')
 
 G = nx.Graph()
 
@@ -131,10 +131,10 @@ G.add_edge('Nongkai',"Buengkarn",weight=135)
 
 
 
-print('Shortest path from ',Province_start,'to',Province_end,'is : ' , 
-    nx.shortest_path(G,source=Province_start,target=Province_end ,weight='weight'))
-print('Shortest path from ',Province_start,'to',Province_end,'is : ' , 
-    nx.shortest_path_length(G,source=Province_start,target=Province_end,weight='weight'))
+#print('Shortest path from ',Province_start,'to',Province_end,'is : ' , 
+#    nx.shortest_path(G,source=Province_start,target=Province_end ,weight='weight'))
+#print('Shortest path from ',Province_start,'to',Province_end,'is : ' , 
+#    nx.shortest_path_length(G,source=Province_start,target=Province_end,weight='weight'))
 
 edge_labels = nx.get_edge_attributes(G,'weight')
 
